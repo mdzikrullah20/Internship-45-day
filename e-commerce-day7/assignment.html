@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment html and css</title>
+    <link rel="stylesheet" href="assignment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body id="body">
+    <input type="checkbox" id="toggle">
+    <div id="main">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://img.freepik.com/premium-vector/minimalist-type-creative-business-logo-template_1283348-20187.jpg?w=740"
+                    alt="">
+            </div>
+            <ul class="nav-text">   
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><label for="toggle">Toggle</label></li>
+                <li><a href="#form-card">LogIn/SingUp</a></li>
+
+            </ul>
+            <div id="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- <div id="slid-card"></div>-->
+        <div class="container" id="home">
+            <!-- slider  -->
+            <div class="container-slider">
+                <div class="slider">
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/Internal_Category_-_Home_Apppliance_-_1920x552.png"
+                            alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/home_banner/Generic_Banner_6.webp"
+                            alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/Internal_Category_-_Accessories_-_1920x552_TXp7ZkQ.png"
+                            alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/home_banner/Generic_Banner_11_Headphone.webp"
+                            alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/home_banner/Generic_Banner_9_Semi_Automatic_Washing_Machine.webp"
+                            alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/home_banner/Generic_Banner_3.webp"
+                            alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/Internal_Category_-_Laptop__Desktop-_1920x552.png"
+                            alt="">
+                    </div>
+                    <div class="slid">
+                        <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/Internal_Category_-_Smartphone_-_1920x552.png"
+                            alt="">
+                    </div>
+                </div>
+                <button class="pre" onclick="preSlid()">&#10094;</button>
+                <button class="next" onclick="nextSlid()">&#10095;</button>
+            </div>
+            <div class="icon-conatiner">
+                <div class="icon-card">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/fit-in/120x120/images/computer_HVOgFY3.png"
+                        alt="" id="Laptops">
+                    <p>Laptops & Printer</p>
+                </div>
+                <div class="icon-card">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/fit-in/120x120/images/air-conditioner_mtKMV9K.png"
+                        alt="" id="condtinoer">
+                    <p>Air Condinoer</p>
+                </div>
+                <div class="icon-card">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/fit-in/120x120/images/smartphone_qojgxKp.png"
+                        alt="" id="smartPhone">
+                    <p>Smart Phone</p>
+                </div>
+                <div class="icon-card">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/fit-in/120x120/images/oven2.png"
+                        alt="" id="Microwaves">
+                    <p>Microwaves</p>
+                </div>
+                <div class="icon-card">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/fit-in/120x120/images/headphones_lIOg7eq_T3Qatvg.png"
+                        alt="" id="Headphone">
+                    <p>Head phones</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="trending">
+            <div id="trending-container">
+                <div class="trending-products" id="tCLSeriesTv">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/filters:quality(90)/fit-in/370x370/images/images/306525_0_uxe6hz.webp"
+                        alt="">
+                    <p>TCL C Series 140 cm (55 inch) QLED 4K Ultra HD Google TV with Dolby Vision (2024 model) | 55C655
+                    </p>
+                    <div id="price">
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                        <h2> 40,990</h2>
+                    </div>
+                </div>
+                <div class="trending-products" id="tv2">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/filters:quality(90)/fit-in/370x370/images/images/307623_sbzv9r.webp"
+                        alt="">
+                    <p>TCL 189 cm (75 inch) 4K UHD QLED Smart Google TV with Dolby Atmos (2024 model) | 75P755PRO</p>
+                    <div id="price">
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                        <h2> 69,990</h2>
+                    </div>
+                </div>
+                <div class="trending-products" id="tv3">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/filters:quality(90)/fit-in/370x370/images/images/41V2CTk2svL._SX300_SY300_QL70_FMwebp_.webp"
+                        alt="">
+                    <p>Vu 126cm (50 inches) Vibe Series QLED Google TV (Black) | 50VIBE24</p>
+                    <div id="price">
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                        <h2> 35,000</h2>
+                    </div>
+                </div>
+                <div class="trending-products" id="tv4">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/filters:quality(90)/fit-in/370x370/images/images/306517_0_x7a5jf.webp"
+                        alt="">
+                    <p>TCL127 cm (50 inch) 4K Ultra HD LED Google TV with Dolby Vision and Dolby Atmos (2024 model) |
+                        50P755</p>
+                    <div id="price">
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                        <h2>30,990 </h2>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="cards">
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+                <div class="item">Item 4</div>
+                <div class="item">Item 5</div>
+                <div class="item">Item 6</div>
+               </div>     -->
+
+            <!-- flip card animation -->
+            <!-- <div class="card">
+                <div class="front">
+                    <h2>Front Side</h2>
+                </div>
+                <div class="back">
+                    <h2>Back Side</h2>
+                </div>
+            </div>
+           
+            <!-- <div id="visval">Read me </div> -->
+        </div>
+        <div class="container" id="Services">
+            <div id="big-card-conatiners">
+                <div class="big-cards" id="wahsing-machine">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/static_banner/Washing_Machine_4.jpg"
+                        alt="">
+                </div>
+                <div class="big-cards" id="LedTv">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/static_banner/LED_5_JYWrlnO.jpg"
+                        alt="">
+                </div>
+                <div class="big-cards" id="Ac">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/static_banner/AC_6.jpg"
+                        alt="">
+                </div>
+                <div class="big-cards" id="fridge">
+                    <img src="https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/images/static_banner/Ref_6_1.jpg"
+                        alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <section class="form-card" id="form-card">
+                <form novalidate>
+                    <h1>Login</h1>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required placeholder=" Enter your name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required placeholder=" Enter your email">
+
+                    <label for="password">Password:</label>
+                    <input type="Password" id="Password" required placeholder=" Enter your password">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

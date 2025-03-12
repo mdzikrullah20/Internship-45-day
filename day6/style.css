@@ -1,0 +1,111 @@
+/* Universal Selector (*): Targets all elements */
+* {
+    margin: 30;
+    padding: 50;
+    background-color:rgb(29, 70, 81);
+  }
+  /* Targets an element with a specific id attribute   */
+#selctor{
+    background-color:rgb(50, 47, 197);
+    border:1px solid black;
+    color:white;
+    padding:10px;
+}
+/* Targets elements with a specific class attribute */
+.myPara p{
+    background-color: green;
+    padding:10px;
+    color:white;
+}
+/* ///-------------------------------------------------------------------- */
+
+/* flex box */
+/*elements ko verticaly aur horizantly center,start end mein move karne ke liye flex box use karte hain */
+/* Flexbox: Ye 1-dimensional layout system hai 
+(sirf ek axis - horizontal ya vertical)
+Isme aap ek hi direction mein items ko align karte ho */
+
+#flex{
+    display:flex; /* Enables Flexbox on the container*/
+    flex-direction:column; /*elemets ko horizontally center ,start,end, move karne ke liye use kiya jata hai*/
+    justify-content:center; /*elemets ko horizontally center ,start,end, move karne ke liye use kiya jata hai*/
+    align-items:center; /*elements ko vertically center karne ke liye*/
+    color:wheat;
+    font-size: 22px;
+}
+h1{
+    display:flex;
+    justify-content:center;
+    color:white;
+
+}
+
+/*-------------------------------------------------------------------------------*/
+/*Box Modle in css*/
+/* elments ke in side aur out side space create karne ke liye padding aur margin use karte ahin 
+/* border */
+#padding{
+    color:white;
+    padding:20px;
+    border:1px solid white;
+}
+
+#margin{
+    border:1px solid red;
+    margin:10px;
+    color:white;
+}
+#border{
+    border:1px solid white;
+    color:white;
+}
+/*-------------------------------------------*/
+/* colors  and font */
+#colors{
+    color:rgb(70, 218, 117);
+    padding:10px;
+    background-color:black;
+}
+#fonts h1{
+    font-family:cursive;
+    font-size:26px;
+    font-weight:700;
+    font-style:italic;
+
+}
+/* /------------------------------------------------------------- */
+/* grid in css */
+
+/* Grid: Ye 2-dimensional layout system hai 
+(rows aur columns dono control kar sakte ho)
+ Isme aap horizontal aur vertical dono ko ek saath control kar sakte ho */
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; 
+    grid-template-rows:100px 100px;
+    grid-gap: 10px;
+  }
+
+  .item{
+    /* grid-row:1/2; */
+    /* grid-column:1/2; */
+    border: 1px solid #ccc;
+    border-radius:10px;
+    color:white;
+    padding:28px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
